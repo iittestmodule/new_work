@@ -1,0 +1,90 @@
+.space-top-bottom-5 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.font-size-75-per {
+    font-size: 75%;
+}
+.space-1 {
+    margin: 1px 1px 1px 1px;
+}
+
+.border {
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+}
+
+.btn-shape-ticked {
+    border-radius: 40% 40% 0px 0px;
+}
+
+.btn-shape-unticked {
+    border-radius: 0px 0px 40% 40%;
+}
+
+.btn-shape-round {
+    border-radius: 40% 40% 40% 40%;
+}
+
+.height-500 {
+    height: 500px;
+}
+
+.float-right {
+    float: right;
+}
+
+.display-inline-block {
+    display:inline-block;
+}
+
+.width-250 {
+    width: 250px;
+}
+
+.left-space-5 {
+    margin-left: 5px;
+}
+
+.margin-left-5 {
+    margin-left: 5px;
+}
+.margin-left-15 {
+    margin-left: 15px; 
+}
+.margin-right-5 {
+    margin-right: 5px;
+}
+ .width-full {
+    width: 100%;
+ }
+
+.left-space-10 {
+    margin-left: 10px;
+}
+
+.right-space-10 {
+    margin-right: 10px;
+}
+
+.cut-diamond {
+    border-style: solid;
+    border-color: transparent transparent #6EFF00 transparent;
+    border-width: 0 25px 25px 25px;
+    height: 0;
+    width: 50px;
+    position: relative;
+    margin: 20px 0 50px 0;
+}
+.cut-diamond:after {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: -25px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-color: #00FFE2 transparent transparent transparent;
+    border-width: 70px 50px 0 50px;
+}
