@@ -24,7 +24,8 @@
 }
 
 .btn-shape-round {
-    border-radius: 40% 40% 40% 40%;
+    border-radius: 45% 45% 45% 45%;
+    background-color: #C0DB44
 }
 
 .height-500 {
@@ -68,23 +69,8 @@
     margin-right: 10px;
 }
 
-.cut-diamond {
-    border-style: solid;
-    border-color: transparent transparent #6EFF00 transparent;
-    border-width: 0 25px 25px 25px;
-    height: 0;
-    width: 50px;
-    position: relative;
-    margin: 20px 0 50px 0;
+.top-space-10 {
+    margin-top: 10px;
 }
-.cut-diamond:after {
-    content: "";
-    position: absolute;
-    top: 25px;
-    left: -25px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-color: #00FFE2 transparent transparent transparent;
-    border-width: 70px 50px 0 50px;
-}
+
+

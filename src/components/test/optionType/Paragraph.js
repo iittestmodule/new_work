@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 
 
-class Single extends Component {
+class Paragraph extends Component {
   constructor(props){
 		super(props);
   }
@@ -26,4 +26,4 @@ class Single extends Component {
   }
 }
 
-export default Single;
+export default Paragraph;

@@ -4,32 +4,24 @@ import React, {Component} from 'react';
 class Multiple extends Component {
   constructor(props){
 		super(props);
-        console.log('this is contact');
-		};
-  handleInput(e){
-    console.log(e);
   }
+  
   render(){
-    return (<div className='row'>
-
+    return (<div className='row margin-left-5'>
+    <form>
       <div class="checkbox">
-        <label><input type="checkbox" name="optradio" value='A' onChange = {this.handleInput.bind(this)}/>10 m/s</label>
+        <label><input type="checkbox" name="optionA" value='A' checked={this.props.currentState.optionA} onChange = {this.props.handleInputMultiple}/>10 m/s</label>
       </div>
       <div class="checkbox">
-        <label><input type="checkbox" name="optradio"  value='B' onChange = {this.handleInput.bind(this)}/>15 m/s</label>
+        <label><input type="checkbox" name="optionB"  value='B' checked={this.props.currentState.optionB} onChange = {this.props.handleInputMultiple}/>15 m/s</label>
       </div> 
-      <div class="radio">
-        <label><input type="checkbox" name="optradio"  value='C' onChange = {this.handleInput.bind(this)}/>1.5 m/s</label>
+      <div class="checkbox">
+        <label><input type="checkbox" name="optionC"  value='C' checked={this.props.currentState.optionC} onChange = {this.props.handleInputMultiple}/>1.5 m/s</label>
       </div>
       <div class="checkbox">
-        <label><input type="checkbox" name="optradio"  value='D' onChange = {this.handleInput.bind(this)} />0.5 m/s</label>
+        <label><input type="checkbox" name="optionD"  value='D' checked={this.props.currentState.optionD} onChange = {this.props.handleInputMultiple} />0.5 m/s</label>
       </div>
-      <div class="checkbox">
-      <input type="checkbox" checked={this.props.inStockOnly} />
-          {' '}
-          Only show products in stock
-          </div>	
-    
+	  </form>
     </div>);
   }
 }
